@@ -27,6 +27,10 @@ This project is a simple React application that allows users to generate the fir
     ```
 5. The app will be running at `http://localhost:3000`.
 
+## Testing
+### To run the unit tests:
+    npm test
+
 ## Features
 
 - Home page to submit a number `n`.
