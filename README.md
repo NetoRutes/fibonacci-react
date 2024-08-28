@@ -15,7 +15,7 @@ This project is a simple React application that allows users to generate the fir
     ```
 2. Navigate to the project directory:
     ```bash
-    cd fibonacci-app
+    cd fibonacci-react
     ```
 3. Install dependencies:
     ```bash
@@ -29,7 +29,7 @@ This project is a simple React application that allows users to generate the fir
 
 ## Features
 
-- Input page to submit a number `n`.
+- Home page to submit a number `n`.
 - Result page to display the Fibonacci sequence.
 - Navbar and footer for consistent design.
 
