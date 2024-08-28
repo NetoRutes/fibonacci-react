@@ -4,8 +4,8 @@ import { TextField, Button, Container, Box } from '@mui/material';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
-const HomePage = () => {
-    const [nValue, setNValue] = useState('');
+const HomePage: React.FC = () => {
+    const [nValue, setNValue] = useState<string>('');
     const navigate = useNavigate();
 
     const handleSubmit = async () => {

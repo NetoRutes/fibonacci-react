@@ -4,8 +4,12 @@ This project is a simple React application that allows users to generate the fir
 
 ## Technologies Used
 
-- React
 - Material-UI
+- Node 18.20.4
+- NPM 10.7.0
+- Jest
+- React
+- TypeScript
 
 ## Running the Project
 
@@ -31,6 +35,10 @@ This project is a simple React application that allows users to generate the fir
 ### To run the unit tests:
     npm test
 
+## Build
+### To build the application:
+    npm run build
+
 ## Features
 
 - Home page to submit a number `n`.
@@ -41,3 +49,4 @@ This project is a simple React application that allows users to generate the fir
 
 - Add error handling for invalid inputs.
 - Improve styling and responsiveness.
+- Improve UX adding enter eventhandler to automatically click in the button "Generate fibonacci sequence".

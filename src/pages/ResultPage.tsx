@@ -3,9 +3,8 @@ import { useNavigate, useLocation } from 'react-router-dom';
 import { Container, Box, Button, Typography } from '@mui/material';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import styles from './ResultPage.css'
 
-const ResultPage = () => {
+const ResultPage: React.FC = () => {
     const navigate = useNavigate();
     const location = useLocation();
     const { fibonacciNumbers } = location.state;
@@ -18,7 +17,7 @@ const ResultPage = () => {
                     <Typography variant="h5" gutterBottom>
                         Fibonacci Sequence:
                     </Typography>
-                    <Typography variant="body1" className="fibonacci-sequence">
+                    <Typography variant="body1" sx={{ wordBreak: 'break-all' }}>
                         {fibonacciNumbers}
                     </Typography>
                     <Button
